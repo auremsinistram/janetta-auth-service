@@ -1,0 +1,122 @@
+[
+    {
+        "status": 401,
+        "name": "missing auth header",
+        "messages": {
+            "en_US": "Authorization header is required",
+            "ru_RU": "Требуется заголовок авторизации"
+        }
+    },
+    {
+        "status": 401,
+        "name": "invalid auth format",
+        "messages": {
+            "en_US": "Authorization format is invalid",
+            "ru_RU": "Неверный формат авторизации"
+        }
+    },
+    {
+        "status": 401,
+        "name": "invalid credentials",
+        "messages": {
+            "en_US": "Credentials is invalid",
+            "ru_RU": "Неверные учётные данные"
+        }
+    },
+    {
+        "status": 401,
+        "name": "unauthorized",
+        "messages": {
+            "en_US": "Unauthorized",
+            "ru_RU": "Требуется авторизация"
+        }
+    },
+    {
+        "status": 403,
+        "name": "invalid code",
+        "messages": {
+            "en_US": "Verification code is invalid",
+            "ru_RU": "Неверный код подтверждения"
+        }
+    },
+    {
+        "status": 403,
+        "name": "account blocked",
+        "messages": {
+            "en_US": "Account blocked",
+            "ru_RU": "Аккаунт заблокирован"
+        }
+    },
+    {
+        "status": 404,
+        "name": "not found",
+        "messages": {
+            "en_US": "Resource not found",
+            "ru_RU": "Ресурс не найден"
+        }
+    },
+    {
+        "status": 404,
+        "name": "code not found",
+        "messages": {
+            "en_US": "Verification code not found",
+            "ru_RU": "Код подтверждения не найден"
+        }
+    },
+    {
+        "status": 404,
+        "name": "phone not found",
+        "messages": {
+            "en_US": "Phone number not found",
+            "ru_RU": "Номер телефона не найден"
+        }
+    },
+    {
+        "status": 409,
+        "name": "phone already exists",
+        "messages": {
+            "en_US": "Phone number already registered",
+            "ru_RU": "Номер телефона уже зарегистрирован"
+        }
+    },
+    {
+        "status": 409,
+        "name": "code already sent",
+        "messages": {
+            "en_US": "Verification code has already been sent to your phone",
+            "ru_RU": "Код подтверждения уже отправлен на ваш телефон"
+        }
+    },
+    {
+        "status": 422,
+        "name": "invalid phone format",
+        "messages": {
+            "en_US": "Phone number format is invalid",
+            "ru_RU": "Неправильный формат номера телефона"
+        }
+    },
+    {
+        "status": 422,
+        "name": "weak password",
+        "messages": {
+            "en_US": "Password is too weak",
+            "ru_RU": "Пароль слишком простой"
+        }
+    },
+    {
+        "status": 429,
+        "name": "too many attempts",
+        "messages": {
+            "en_US": "Too many attempts, please try again later",
+            "ru_RU": "Слишком много попыток, пожалуйста, попробуйте позже"
+        }
+    },
+    {
+        "status": 500,
+        "name": "internal server error",
+        "messages": {
+            "en_US": "Something went wrong",
+            "ru_RU": "Что-то пошло не так"
+        }
+    }
+]

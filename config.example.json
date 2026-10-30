@@ -1,0 +1,65 @@
+{
+    "server": {
+        "address":"localhost:8080",
+        "delays": {
+            "readiness": "5s",
+            "shutdown": "15s",
+            "additional": "5s"
+        }
+    },
+    "redis": {
+        "url": "localhost:6379",
+        "username": "",
+        "password": "janetta",
+        "db": 0,
+        "timeout": "1m"
+    },
+    "postgres": {
+        "url": "postgres://janetta:janetta@localhost:5432/janetta?sslmode=disable",
+        "timeout": "1m"
+    },
+    "account": {
+        "sign_in_attempts": 4,
+        "sign_in_attempts_exp": "2m",
+        "sign_in_block_exp": "10m",
+        "sign_up_exp": "10m",
+        "sign_in_exp": "10m",
+        "password_forgot_exp": "10m",
+        "code_length": 6,
+        "code_charset": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+        "jwt": {
+            "issuer": "auth",
+            "audience": [
+                "auth"
+            ],
+            "valid_methods": [
+                "HS256"
+            ],
+            "access_token": {
+                "exp": "10s",
+                "algorithm": "HS256",
+                "secret": "janetta",
+                "cookie": {
+                    "secure": false,
+                    "http_only": true,
+                    "same_site": 2,
+                    "name": "access_token",
+                    "path": "/",
+                    "max_age": "10s"
+                }
+            },
+            "refresh_token": {
+                "exp": "20s",
+                "algorithm": "HS256",
+                "cookie": {
+                    "secure": false,
+                    "http_only": true,
+                    "same_site": 2,
+                    "name": "refresh_token",
+                    "path": "/api/auth/refresh",
+                    "max_age": "20s"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "1284241983": {
+        "en_US": "Phone number format is invalid",
+        "ru_RU": "Неправильный формат номера телефона"
+    },
+    "1404464100": {
+        "en_US": "Phone number not found",
+        "ru_RU": "Номер телефона не найден"
+    },
+    "1535919519": {
+        "en_US": "Verification code not found",
+        "ru_RU": "Код подтверждения не найден"
+    },
+    "1762623891": {
+        "en_US": "Unauthorized",
+        "ru_RU": "Требуется авторизация"
+    },
+    "1862459612": {
+        "en_US": "Account blocked",
+        "ru_RU": "Аккаунт заблокирован"
+    },
+    "2373017709": {
+        "en_US": "Authorization format is invalid",
+        "ru_RU": "Неверный формат авторизации"
+    },
+    "2442681684": {
+        "en_US": "Password is too weak",
+        "ru_RU": "Пароль слишком простой"
+    },
+    "2532094021": {
+        "en_US": "Verification code is invalid",
+        "ru_RU": "Неверный код подтверждения"
+    },
+    "2740304275": {
+        "en_US": "Something went wrong",
+        "ru_RU": "Что-то пошло не так"
+    },
+    "3113199080": {
+        "en_US": "Too many attempts, please try again later",
+        "ru_RU": "Слишком много попыток, пожалуйста, попробуйте позже"
+    },
+    "3551329750": {
+        "en_US": "Credentials is invalid",
+        "ru_RU": "Неверные учётные данные"
+    },
+    "4227344609": {
+        "en_US": "Phone number already registered",
+        "ru_RU": "Номер телефона уже зарегистрирован"
+    },
+    "583683092": {
+        "en_US": "Authorization header is required",
+        "ru_RU": "Требуется заголовок авторизации"
+    },
+    "738618814": {
+        "en_US": "Verification code has already been sent to your phone",
+        "ru_RU": "Код подтверждения уже отправлен на ваш телефон"
+    },
+    "771579846": {
+        "en_US": "Resource not found",
+        "ru_RU": "Ресурс не найден"
+    }
+}
